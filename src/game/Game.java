@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author anavi
+ * @author Ana Visnevskaja
  */
 public class Game {
 
@@ -132,6 +132,7 @@ public class Game {
                 isVisoKZir = (panaudojoZirK * 100) / isVisoPartiju;
                 isVisoKPop = (panaudojoPopK * 100) / isVisoPartiju;
                 System.out.println("Zaidejas pasirinko: 0. Pabaiga");
+                System.out.println("Is viso partiju: " + isVisoPartiju);
                 System.out.println("Zaidejas laimejo: " + zSuma + " ir lygmuo:" + lygmuo + ". Is viso: " + isVisoZ);
                 System.out.println("Panaudojo Akmuo: " + isVisoZAkm + "%");
                 System.out.println("Panaudojo Zirkles: " + isVisoZZir + "%");
@@ -141,7 +142,7 @@ public class Game {
                 System.out.println("Panaudojo Zirkles: " + isVisoKZir + "%");
                 System.out.println("Panaudojo Poperi: " + isVisoKPop + "%");
             }
-
+            
         } while (zp != 0);
         
     }
